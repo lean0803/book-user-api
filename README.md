@@ -10,3 +10,9 @@ API sederhana untuk mengelola data buku dan pengguna menggunakan **Node.js**, **
 - **Cors** (Cross-Origin Resource Sharing)
 - **Postman** atau **cURL** untuk pengujian API
 
+## Cara menggunakan
+- Jalankan perintah 'npm install' di CMD
+- Buat dulu database lalu sinkronkan dengan yang ada di file .env (Jika .env tidak ada, silakan buat sendiri)
+- npx prisma migrate dev
+- Jalankan node src/index.js di CMD untuk menjalankan server
+
